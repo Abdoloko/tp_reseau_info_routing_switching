@@ -1,26 +1,26 @@
-# ??? TP R‚seau - Routing 
+#  TP Râ€šseau - Routing 
 
 Ce projet contient la topologie Cisco Packet Tracer du TP de routage statique et switching.
 
 ## ?? Objectifs du TP
 - Configurer les interfaces des routeurs
 - Mettre en place le routage statique
-- Tester la connectivit‚ entre les r‚seaux
-- Sauvegarder la configuration sur chaque ‚quipement
+- Tester la connectivitâ€š entre les râ€šseaux
+- Sauvegarder la configuration sur chaque â€šquipement
 
 ## ?? Commandes utiles
 
 ### Ajouter une route statique :
-    ip route <r‚seau> <masque> <next-hop | interface>
+    ip route <râ€šseau> <masque> <next-hop | interface>
 
 ### Supprimer une route statique :
-    no ip route <r‚seau> <masque> <next-hop | interface>
+    no ip route <râ€šseau> <masque> <next-hop | interface>
 
 ### Sauvegarder la configuration :
     wr
     copy running-config startup-config
 
-### V‚rifications :
+### Vâ€šrifications :
     show ip route
     show running-config
     ping <adresse>
@@ -30,4 +30,5 @@ Ce projet contient la topologie Cisco Packet Tracer du TP de routage statique et
 - README.md
 
 ## ?? Auteur
-Projet r‚alis‚ dans le cadre du TP R‚seau - Routing 
+Projet râ€šalisâ€š dans le cadre du TP Râ€šseau - Routing 
+
